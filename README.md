@@ -62,6 +62,13 @@ Scripts in this repository load `.rda` and other intermediate data files generat
 
 ---
 
+## System Requirements
+
+OS tested on: macOS 13+ and Ubuntu 20.04 (Linux). Not tested on Windows.
+R version: >= 4.2.0
+
+---
+
 ## Key Software & Methods
 
 | Analysis | Tool | Version |
@@ -80,6 +87,14 @@ Scripts in this repository load `.rda` and other intermediate data files generat
 | FIRE analysis | FIREcaller | 1.40 |
 | Single-cell ATAC | ArchR | 1.0.2 |
 | Visualization | plotgardener, ComplexHeatmap, ggplot2 | 1.10.2, 2.20.0, 4.0.1 |
+
+---
+
+## Installation Guidelines & Demo
+
+1. Install R (>= 4.2.0) from CRAN or via your OS package manager.
+2. Install the packages needed to run the demo: install.packages(c("nlme", "ggplot2", "tidyverse", "corrplot"))
+3. Run the demo: Rscript demo/run_demo.R
 
 ---
 
