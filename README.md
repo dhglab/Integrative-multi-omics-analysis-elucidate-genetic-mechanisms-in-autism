@@ -67,7 +67,7 @@ Scripts in this repository load `.rda` and other intermediate data files generat
 | Analysis | Tool | Version |
 |----------|------|---------|
 | Peak calling | MACS2 | 2.1.2 |
-| Differential accessibility | nlme (linear mixed model) | R |
+| Differential accessibility | nlme (linear mixed model) | 3.1.168 |
 | Peak normalization | CQN | 1.44.0 |
 | Consensus peaks | DiffBind | 2.14.0 |
 | Peak annotation | ChIPseeker | 1.34.1 |
@@ -79,7 +79,7 @@ Scripts in this repository load `.rda` and other intermediate data files generat
 | Chromatin loop calling | FitHiC2 | 2.0.7 |
 | FIRE analysis | FIREcaller | 1.40 |
 | Single-cell ATAC | ArchR | 1.0.2 |
-| Visualization | plotgardener, ComplexHeatmap, ggplot2 | — |
+| Visualization | plotgardener, ComplexHeatmap, ggplot2 | 1.10.2, 2.20.0, 4.0.1 |
 
 ---
 
