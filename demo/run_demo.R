@@ -20,6 +20,8 @@
 #   Corrplot_topPCofCQNnormedRPKM_Covariates.pdf
 #   p_magnitude_lme<model>.rda
 #   HistPval_lme<model>.pdf
+#
+# Expected runtime: under 20 minutes on a normal desktop computer.
 # ==============================================================================
  
 rm(list = ls())
